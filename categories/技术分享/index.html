@@ -77,6 +77,9 @@
   </style>
 </noscript>
 
+
+  <script src="/js/src/photoswipe.min.js?v="></script>
+<script src="/js/src/photoswipe-ui-default.min.js?v="></script>
 <link rel="alternate" href="/atom.xml" title="White Days" type="application/atom+xml">
 </head>
 
@@ -109,7 +112,7 @@
       <h1 class="site-title">White Days</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
-      <p class="site-subtitle" itemprop="description">说我是错的，那你最好证明你是对的</p>
+      <p class="site-subtitle" itemprop="description">你说我是错的，那你最好证明你是对的</p>
   </div>
 
   <div class="site-nav-right">
@@ -152,6 +155,11 @@
         <li class="menu-item menu-item-schedule">
 
     <a href="/schedule/" rel="section"><i class="fa fa-fw fa-calendar"></i>日程表</a>
+
+  </li>
+        <li class="menu-item menu-item-相册">
+
+    <a href="/photos/" rel="section"><i class="fa fa-fw fa-camera"></i>相册</a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -223,6 +231,26 @@
 
       <div class="post-meta">
         <time itemprop="dateCreated"
+              datetime="2020-06-12T15:18:38+08:00"
+              content="2020-06-12">
+          06-12
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2020/06/12/clang/2zhang1jie/Data-type/" itemprop="url">
+            <span itemprop="name">第二章： 数据类型、运算符和表达式01</span>
+          </a>
+      </div>
+
+    </header>
+  </article>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
               datetime="2020-06-04T17:43:31+08:00"
               content="2020-06-04">
           06-04
@@ -230,7 +258,7 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2020/06/04/clang/1zhang1jie/cjieshao/" itemprop="url">
+          <a class="post-title-link" href="/2020/06/04/clang/1zhang1jie/introduction/" itemprop="url">
             <span itemprop="name">第一章：C语言概述涉及如何上机运行C程序</span>
           </a>
       </div>
@@ -331,20 +359,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">8</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">11</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -365,6 +393,9 @@
       <span class="links-of-author-item">
         <a href="https://m.youtube.com/channel/UCmdjPLUMn9tj1iDFwZO2vVg" title="YouTube → https:&#x2F;&#x2F;m.youtube.com&#x2F;channel&#x2F;UCmdjPLUMn9tj1iDFwZO2vVg" rel="noopener" target="_blank"><i class="fa fa-fw fa-youtube"></i>YouTube</a>
       </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/218730298" title="Bili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;218730298" rel="noopener" target="_blank"><i class="fa fa-fw fa-tv"></i>Bili</a>
+      </span>
   </div>
   <div class="cc-license motion-element" itemprop="license">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
@@ -374,22 +405,42 @@
   <div class="links-of-blogroll motion-element">
     <div class="links-of-blogroll-title">
       <i class="fa fa-fw fa-link"></i>
-      Links
+      Friends Links
     </div>
     <ul class="links-of-blogroll-list">
-        <li class="links-of-blogroll-item">
-          <a href="https://space.bilibili.com/218730298" title="https:&#x2F;&#x2F;space.bilibili.com&#x2F;218730298" rel="noopener" target="_blank">B站链接</a>
-        </li>
         <li class="links-of-blogroll-item">
           <a href="https://bcap03.top/" title="https:&#x2F;&#x2F;bcap03.top&#x2F;" rel="noopener" target="_blank">Bcap03</a>
         </li>
         <li class="links-of-blogroll-item">
           <a href="https://www.wzhrdx.xyz/" title="https:&#x2F;&#x2F;www.wzhrdx.xyz&#x2F;" rel="noopener" target="_blank">白夜</a>
         </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://leflacon.top/" title="https:&#x2F;&#x2F;leflacon.top&#x2F;" rel="noopener" target="_blank">Letflacon</a>
+        </li>
     </ul>
   </div>
 
       </div>
+      
+      
+<script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+<script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+<div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div id="myCanvasContainer" class="widget tagcloud">
+        <canvas width="250" height="250" id="resCanvas" style="width=100%">
+            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/C%E8%AF%AD%E8%A8%80/" rel="tag">C语言</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/html-5/" rel="tag">html 5</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/speedtest/" rel="tag">speedtest</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%86%E4%BA%AB/" rel="tag">分享</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A3%81%E7%BA%B8/" rel="tag">壁纸</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B9%BF%E6%A1%A5%E7%9C%9F%E7%BA%AA%E5%AD%90/" rel="tag">广桥真纪子</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/" rel="tag">技术分享</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%BD%91%E6%98%93%E4%BA%91/" rel="tag">网易云</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AF%B4%E6%98%8E/" rel="tag">说明</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9F%B3%E4%B9%90/" rel="tag">音乐</a><span class="tag-list-count">1</span></li></ul>
+        </canvas>
+    </div>
+</div>
+
+<div id="">
+  <canvas id="canvas" style="width:60%;">
+</div>
+
+<!--粒子时钟js-->
+<script type="text/javascript" src="/js/canvas-dance-time.js"></script>
+
         <div class="back-to-top motion-element">
           <i class="fa fa-arrow-up"></i>
           <span>0%</span>
@@ -401,6 +452,8 @@
 
 
       </div>
+</main>
+      
     </main>
 
     <footer class="footer">
@@ -422,7 +475,7 @@
       <i class="fa fa-area-chart"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">7k</span>
+    <span title="站点总字数">8k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
@@ -436,25 +489,37 @@
     <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ed272404e022d3b" async="async"></script>
   </div>
 
- <!-- 网站运行时间的设置 -->
-    <span id="timeDate">载入天数...</span>
-    <span id="times">载入时分秒...</span>  Sometimes your whole life boils down to one insame move.
-    <script>
-        var now = new Date();
-        function createtime() {
-            var grt= new Date("06/04/2020 00:00:00");//此处修改你的建站时间或者网站上线时间
-            now.setTime(now.getTime()+250);
-            days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
-            hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
-            if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
-            mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
-            seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
-            snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-            document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
-            document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
-    }
-    setInterval("createtime()",250);
-    </script>
+<!--添加网站的运行时间-->
+<span id="sitetime"> <br></span>
+<script language="javascript">
+	function siteTime(){
+		window.setTimeout("siteTime()", 1000);
+		var seconds = 1000
+		var minutes = seconds * 60
+		var hours = minutes * 60
+		var days = hours * 24
+		var years = days * 365
+
+		var today = new Date()
+		var todayYear = today.getFullYear()
+		var todayMonth = today.getMonth()
+		var todayDate = today.getDate()
+		var todayHour = today.getHours()
+		var todayMinute = today.getMinutes()
+		var todaySecond = today.getSeconds()
+		var t1 = Date.UTC(2020,3,30,12,00,00)
+		var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond)
+		var diff = t2-t1
+
+		var diffYears = Math.floor(diff/years)
+		var diffDays = Math.floor((diff/days)-diffYears*365)
+		var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours)
+		var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes)
+		var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds)
+		document.getElementById("sitetime").innerHTML=" 本站已运行"+diffYears+" 年 "+diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒<br>"
+	}
+	siteTime()
+</script>
 
         
 <div class="busuanzi-count">
@@ -560,6 +625,8 @@
   
 
 
+  
+  
 </body>
 </html>
 
